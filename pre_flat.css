@@ -1,0 +1,165 @@
+/*
+ * Made by Tsartsaris Sotirios 
+ * http://tsartsaris.gr/free_google_code_prettify_flat_theme_css
+ * Free for use, free for all. Cheers.
+ */
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+.str
+{
+    color: #D35400;
+}
+.kwd
+{
+    color: #3498DB;
+}
+.com
+{
+    color: #AAB2BD;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+.typ
+{
+    color: #1ABC9C;
+}
+.lit
+{
+    color: #F39C12;
+}
+.pun
+{
+    color: #BDC3C7;
+}
+.pln
+{
+    color: #ECF0F1;
+}
+.tag
+{
+    color: #2ECC71;
+}
+.atn
+{
+    color: #95A5A6;
+}
+.atv
+{
+    color: #C0392B;
+}
+.dec
+{
+    color: #8E44AD;
+}
+pre.prettyprint
+{
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing:0.05em;
+    border: 4px solid #1ABC9C;
+}
+ol.linenums
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.prettyprint {
+    background: #2C3E50;
+    border: 4px solid #1ABC9C;
+}
+li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9
+{
+    color: #656D78;
+    list-style-type: decimal;
+}
+li.L1, li.L3, li.L5, li.L7, li.L9 {
+    background: #434A54;
+}
+@media print
+{
+        .str
+    {
+        color: #D35400;
+    }
+    .kwd
+    {
+        color: #3498DB;
+    }
+    .com
+    {
+        color: #AAB2BD;
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+        letter-spacing:0px;
+    }
+    .typ
+    {
+        color: #1ABC9C;
+    }
+    .lit
+    {
+        color: #F39C12;
+    }
+    .pun
+    {
+        color: #BDC3C7;
+    }
+    .pln
+    {
+        color: #ECF0F1;
+    }
+    .tag
+    {
+        color: #2ECC71;
+    }
+    .atn
+    {
+        color: #95A5A6;
+    }
+    .atv
+    {
+        color: #C0392B;
+    }
+    .dec
+    {
+        color: #8E44AD;
+    }
+}
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+     pre.prettyprint{
+        font-size: 15px;
+    }
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+     pre.prettyprint{
+        font-size: 14px;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+     pre.prettyprint{
+        font-size: 13px;
+    }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+     pre.prettyprint{
+        font-size: 12px;
+        margin:0 auto;
+    }
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+     pre.prettyprint{
+        font-size: 10px;
+        margin: 0 auto;
+    }
+
+}
