@@ -28,5 +28,7 @@ Scales wonderfull for best user's reading experience with
 
 
 Using Google Fonts for code in the prettify tags
+
 Main code uses http://typecast.com/preview/google/Varela%20Round
+
 Comments of code uses http://typecast.com/preview/google/Roboto
