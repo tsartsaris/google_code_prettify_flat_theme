@@ -14,7 +14,7 @@ Scales wonderfull for best user's reading experience with
 /* Large desktops */
 @media (min-width: 1200px)
 
-/* Portrait tablets and medium desktops */
+/* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px)
 
 /* Portrait tablets and small desktops */
